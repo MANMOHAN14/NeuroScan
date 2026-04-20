@@ -5,7 +5,7 @@
  * visualization with Chart.js, and UI interactions.
  */
 
-const API_BASE = 'http://localhost:5000';
+const API_BASE = window.location.origin;
 
 // ─── DOM Elements ───────────────────────────────────────
 const assessmentForm = document.getElementById('assessment-form');

@@ -8,11 +8,6 @@ env/
 venv/
 .env
 
-# Data and Models
-# Only keep the structure but allow the user to retrain models if they want
-backend/models/*.pkl
-backend/data/*.csv
-
 # System
 .DS_Store
 Thumbs.db
